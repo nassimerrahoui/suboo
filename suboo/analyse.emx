@@ -984,6 +984,464 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_guAwwM23EeiXe7vVv2EvHw" value="1"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_Ex01QNLyEeit-dbWma4SNQ" name="Collaboration1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Ex1cUNLyEeit-dbWma4SNQ" name="Interaction1">
+        <eAnnotations xmi:id="_Ex2DYNLyEeit-dbWma4SNQ" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ex2DYdLyEeit-dbWma4SNQ" type="Sequence" element="_Ex1cUNLyEeit-dbWma4SNQ" name="ConfigurerObjectif" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_Ex2DYtLyEeit-dbWma4SNQ" element="_Ex1cUNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Ex2DY9LyEeit-dbWma4SNQ" type="interaction_compartment">
+                <eAnnotations xmi:id="_K_AJMNLyEeit-dbWma4SNQ" source="Himetric"/>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_K_USRNLyEeit-dbWma4SNQ" element="_K_Hd8NLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_K_USRdLyEeit-dbWma4SNQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_K_USRtLyEeit-dbWma4SNQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_USR9LyEeit-dbWma4SNQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_USSNLyEeit-dbWma4SNQ" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_USSdLyEeit-dbWma4SNQ" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_USStLyEeit-dbWma4SNQ" x="476" y="53" width="2539" height="13943"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_K_U5UNLyEeit-dbWma4SNQ" element="_K_Hd8dLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_K_U5UdLyEeit-dbWma4SNQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_K_U5UtLyEeit-dbWma4SNQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_U5U9LyEeit-dbWma4SNQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_U5VNLyEeit-dbWma4SNQ" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_U5VdLyEeit-dbWma4SNQ" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_U5VtLyEeit-dbWma4SNQ" x="9289" y="396" width="8280" height="13916"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_K_U5V9LyEeit-dbWma4SNQ" element="_K_IsEtLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_U5WNLyEeit-dbWma4SNQ" x="-1" y="1453" height="-1456"/>
+                </children>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ex2DZNLyEeit-dbWma4SNQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ex2DZdLyEeit-dbWma4SNQ" x="793" y="793"/>
+            </children>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_VgZNLyEeit-dbWma4SNQ" element="_K_RO89LyEeit-dbWma4SNQ" source="_K_USRNLyEeit-dbWma4SNQ" target="_K_U5UNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_VgZdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_VgZtLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_VgZ9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_VgaNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_VgadLyEeit-dbWma4SNQ" points="[0, 0, -448, 0]$[448, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_VgatLyEeit-dbWma4SNQ" id="353545906:2037"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_Vga9LyEeit-dbWma4SNQ" id="1403366988:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_VgbNLyEeit-dbWma4SNQ" element="_K_RO8tLyEeit-dbWma4SNQ" source="_K_U5UNLyEeit-dbWma4SNQ" target="_K_USRNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_VgbdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_VgbtLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_Vgb9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_VgcNLyEeit-dbWma4SNQ" y="476"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_VgcdLyEeit-dbWma4SNQ" points="[0, 0, 14446, 0]$[-14446, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_VgctLyEeit-dbWma4SNQ" id="353545906:-1456"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_Vgc9LyEeit-dbWma4SNQ" id="1403366988:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_VgdNLyEeit-dbWma4SNQ" element="_K_SdEtLyEeit-dbWma4SNQ" source="_K_USRNLyEeit-dbWma4SNQ" target="_K_U5UNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_VgddLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_VgdtLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_Vgd9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_VgeNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_VgedLyEeit-dbWma4SNQ" points="[0, 0, -538, 0]$[538, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_VgetLyEeit-dbWma4SNQ" id="353545906:1772"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_Vge9LyEeit-dbWma4SNQ" id="1403366988:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WHcNLyEeit-dbWma4SNQ" element="_K_R2AdLyEeit-dbWma4SNQ" source="_K_U5UNLyEeit-dbWma4SNQ" target="_K_USRNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WHcdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHctLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHc9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WHdNLyEeit-dbWma4SNQ" y="476"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WHddLyEeit-dbWma4SNQ" points="[0, 0, 538, 0]$[-538, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHdtLyEeit-dbWma4SNQ" id="353545906:1322"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHd9LyEeit-dbWma4SNQ" id="1403366988:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WHeNLyEeit-dbWma4SNQ" element="_K_R2ANLyEeit-dbWma4SNQ" source="_K_USRNLyEeit-dbWma4SNQ" target="_K_U5UNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WHedLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHetLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHe9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WHfNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WHfdLyEeit-dbWma4SNQ" points="[0, 0, -546, 0]$[546, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHftLyEeit-dbWma4SNQ" id="353161157:793"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHf9LyEeit-dbWma4SNQ" id="-1736115732:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WHgNLyEeit-dbWma4SNQ" element="_K_RO8dLyEeit-dbWma4SNQ" source="_K_U5UNLyEeit-dbWma4SNQ" target="_K_USRNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WHgdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHgtLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHg9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WHhNLyEeit-dbWma4SNQ" y="476"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WHhdLyEeit-dbWma4SNQ" points="[0, 0, 546, 0]$[-546, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHhtLyEeit-dbWma4SNQ" id="353161157:132"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHh9LyEeit-dbWma4SNQ" id="-1736115732:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WHiNLyEeit-dbWma4SNQ" element="_K_R2BNLyEeit-dbWma4SNQ" source="_K_USRNLyEeit-dbWma4SNQ" target="_K_U5UNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WHidLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHitLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHi9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WHjNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WHjdLyEeit-dbWma4SNQ" points="[0, 0, -546, 0]$[546, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHjtLyEeit-dbWma4SNQ" id="353161157:1270"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHj9LyEeit-dbWma4SNQ" id="-1736115732:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WHkNLyEeit-dbWma4SNQ" element="_K_SdENLyEeit-dbWma4SNQ" source="_K_U5UNLyEeit-dbWma4SNQ" target="_K_USRNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WHkdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHktLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WHk9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WHlNLyEeit-dbWma4SNQ" y="476"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WHldLyEeit-dbWma4SNQ" points="[0, 0, 546, 0]$[-546, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHltLyEeit-dbWma4SNQ" id="353161157:264"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WHl9LyEeit-dbWma4SNQ" id="-1736115732:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WugNLyEeit-dbWma4SNQ" element="_K_R2AtLyEeit-dbWma4SNQ" source="_K_U5UNLyEeit-dbWma4SNQ" target="_K_U5UNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WugdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WugtLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_Wug9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WuhNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WuhdLyEeit-dbWma4SNQ" points="[0, 0, 0, -30]$[0, 30, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WuhtLyEeit-dbWma4SNQ" id="353161157:397"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_Wuh9LyEeit-dbWma4SNQ" id="-1736115732:793"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WuiNLyEeit-dbWma4SNQ" element="_K_R2A9LyEeit-dbWma4SNQ" source="_K_U5UNLyEeit-dbWma4SNQ" target="_K_U5UNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WuidLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WuitLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_Wui9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WujNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WujdLyEeit-dbWma4SNQ" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WujtLyEeit-dbWma4SNQ" id="353161157:1322"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_Wuj9LyEeit-dbWma4SNQ" id="-1736115732:264"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WukNLyEeit-dbWma4SNQ" element="_K_SdEdLyEeit-dbWma4SNQ" source="_K_U5UNLyEeit-dbWma4SNQ" target="_K_U5UNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WukdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WuktLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_Wuk9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WulNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WuldLyEeit-dbWma4SNQ" points="[0, 0, 0, -32]$[0, 32, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WultLyEeit-dbWma4SNQ" id="353161157:212"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_Wul9LyEeit-dbWma4SNQ" id="-1736115732:846"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_K_WumNLyEeit-dbWma4SNQ" element="_K_RO8NLyEeit-dbWma4SNQ" source="_K_U5UNLyEeit-dbWma4SNQ" target="_K_U5UNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K_WumdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WumtLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_Wum9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WunNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WundLyEeit-dbWma4SNQ" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WuntLyEeit-dbWma4SNQ" id="353161157:1322"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_Wun9LyEeit-dbWma4SNQ" id="-1736115732:264"/>
+            </edges>
+          </contents>
+        </eAnnotations>
+        <ownedConnector xmi:id="_K_TrMNLyEeit-dbWma4SNQ">
+          <end xmi:id="_K_TrMdLyEeit-dbWma4SNQ" role="_K_IFANLyEeit-dbWma4SNQ"/>
+          <end xmi:id="_K_USQNLyEeit-dbWma4SNQ" role="_K_IFANLyEeit-dbWma4SNQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_K_USQdLyEeit-dbWma4SNQ">
+          <end xmi:id="_K_USQtLyEeit-dbWma4SNQ" role="_K_IFANLyEeit-dbWma4SNQ"/>
+          <end xmi:id="_K_USQ9LyEeit-dbWma4SNQ" role="_K_IFAdLyEeit-dbWma4SNQ"/>
+        </ownedConnector>
+        <lifeline xmi:id="_K_Hd8NLyEeit-dbWma4SNQ" name="joueur" represents="_K_IFAdLyEeit-dbWma4SNQ" coveredBy="_K_IsENLyEeit-dbWma4SNQ _K_JTIdLyEeit-dbWma4SNQ _K_QA0NLyEeit-dbWma4SNQ _K_Qn4dLyEeit-dbWma4SNQ _K_J6MNLyEeit-dbWma4SNQ _K_MWcdLyEeit-dbWma4SNQ _K_M9gNLyEeit-dbWma4SNQ _K_PZwdLyEeit-dbWma4SNQ"/>
+        <lifeline xmi:id="_K_Hd8dLyEeit-dbWma4SNQ" name="systeme" represents="_K_IFANLyEeit-dbWma4SNQ" coveredBy="_K_IsEdLyEeit-dbWma4SNQ _K_IsEtLyEeit-dbWma4SNQ _K_JTINLyEeit-dbWma4SNQ _K_QA0dLyEeit-dbWma4SNQ _K_QA0tLyEeit-dbWma4SNQ _K_Qn4NLyEeit-dbWma4SNQ _K_J6MdLyEeit-dbWma4SNQ _K_KhQNLyEeit-dbWma4SNQ _K_MWcNLyEeit-dbWma4SNQ _K_M9gdLyEeit-dbWma4SNQ _K_M9gtLyEeit-dbWma4SNQ _K_PZwNLyEeit-dbWma4SNQ _K_KhQdLyEeit-dbWma4SNQ _K_LIUNLyEeit-dbWma4SNQ _K_LIUdLyEeit-dbWma4SNQ _K_LvYNLyEeit-dbWma4SNQ _K_LvYdLyEeit-dbWma4SNQ _K_NkkNLyEeit-dbWma4SNQ _K_OLoNLyEeit-dbWma4SNQ _K_OLodLyEeit-dbWma4SNQ _K_OLotLyEeit-dbWma4SNQ _K_OysNLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_IsENLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_RO89LyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_jH_modLrEeit-dbWma4SNQ?analyse/SendOperationEvent1?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_IsEdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_RO89LyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_jIANsNLrEeit-dbWma4SNQ?analyse/ReceiveOperationEvent1?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_IsEtLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_IsEdLyEeit-dbWma4SNQ" finish="_K_JTINLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_JTINLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_RO8tLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_jH_modLrEeit-dbWma4SNQ?analyse/SendOperationEvent1?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_JTIdLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_RO8tLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_jIANsNLrEeit-dbWma4SNQ?analyse/ReceiveOperationEvent1?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_J6MNLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_R2ANLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_8vNmgNLtEeit-dbWma4SNQ?analyse/SendOperationEvent7?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_J6MdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2ANLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_8vNmgdLtEeit-dbWma4SNQ?analyse/ReceiveOperationEvent7?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_KhQNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_J6MdLyEeit-dbWma4SNQ" finish="_K_MWcNLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_KhQdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2AtLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_TdANEdLuEeit-dbWma4SNQ?analyse/SendOperationEvent8?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LIUNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2AtLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_TdA0INLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent8?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_LIUdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_LIUNLyEeit-dbWma4SNQ" finish="_K_LvYNLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LvYNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2A9LyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_TdANEdLuEeit-dbWma4SNQ?analyse/SendOperationEvent8?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LvYdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2A9LyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_TdA0INLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent8?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_MWcNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_RO8dLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_8vNmgNLtEeit-dbWma4SNQ?analyse/SendOperationEvent7?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_MWcdLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_RO8dLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_8vNmgdLtEeit-dbWma4SNQ?analyse/ReceiveOperationEvent7?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_M9gNLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_R2BNLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_G43-INLuEeit-dbWma4SNQ?analyse/SendOperationEvent4?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_M9gdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2BNLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_G43-IdLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent4?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_M9gtLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_M9gdLyEeit-dbWma4SNQ" finish="_K_PZwNLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_NkkNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_SdEdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_VzotQNLuEeit-dbWma4SNQ?analyse/SendOperationEvent9?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OLoNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_SdEdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_VzpUUNLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent9?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_OLodLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_OLoNLyEeit-dbWma4SNQ" finish="_K_OLotLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OLotLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_RO8NLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_VzotQNLuEeit-dbWma4SNQ?analyse/SendOperationEvent9?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OysNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_RO8NLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_VzpUUNLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent9?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_PZwNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_SdENLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_G43-INLuEeit-dbWma4SNQ?analyse/SendOperationEvent4?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_PZwdLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_SdENLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_G43-IdLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent4?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_QA0NLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_SdEtLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_QDdT0NLtEeit-dbWma4SNQ?analyse/SendOperationEvent5?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_QA0dLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_SdEtLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_QDdT0dLtEeit-dbWma4SNQ?analyse/ReceiveOperationEvent5?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_QA0tLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_QA0dLyEeit-dbWma4SNQ" finish="_K_Qn4NLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_Qn4NLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2AdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_QDdT0NLtEeit-dbWma4SNQ?analyse/SendOperationEvent5?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_Qn4dLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_R2AdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_QDdT0dLtEeit-dbWma4SNQ?analyse/ReceiveOperationEvent5?"/>
+        </fragment>
+        <message xmi:id="_K_RO8NLyEeit-dbWma4SNQ" name="CheckPiecesOr" messageSort="reply" receiveEvent="_K_OysNLyEeit-dbWma4SNQ" sendEvent="_K_OLotLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_RO8dLyEeit-dbWma4SNQ" name="configurerPiecesOr" messageSort="reply" receiveEvent="_K_MWcdLyEeit-dbWma4SNQ" sendEvent="_K_MWcNLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_RO8tLyEeit-dbWma4SNQ" name="configurerObjectif" messageSort="reply" receiveEvent="_K_JTIdLyEeit-dbWma4SNQ" sendEvent="_K_JTINLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_RO89LyEeit-dbWma4SNQ" name="configurerObjectif" receiveEvent="_K_IsEdLyEeit-dbWma4SNQ" sendEvent="_K_IsENLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ">
+          <eAnnotations xmi:id="_K_RO9NLyEeit-dbWma4SNQ" source="com.ibm.xtools.uml.core.displayoptions">
+            <details xmi:id="_K_RO9dLyEeit-dbWma4SNQ" key="EmptyArgumentMessageOption" value="Utiliser l'option d'affichage de la référence globale"/>
+          </eAnnotations>
+        </message>
+        <message xmi:id="_K_R2ANLyEeit-dbWma4SNQ" name="configurerPiecesOr" receiveEvent="_K_J6MdLyEeit-dbWma4SNQ" sendEvent="_K_J6MNLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_R2AdLyEeit-dbWma4SNQ" name="valider" messageSort="reply" receiveEvent="_K_Qn4dLyEeit-dbWma4SNQ" sendEvent="_K_Qn4NLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_R2AtLyEeit-dbWma4SNQ" name="checkPiecesOr" receiveEvent="_K_LIUNLyEeit-dbWma4SNQ" sendEvent="_K_KhQdLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_R2A9LyEeit-dbWma4SNQ" name="checkPiecesOr" messageSort="reply" receiveEvent="_K_LvYdLyEeit-dbWma4SNQ" sendEvent="_K_LvYNLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_R2BNLyEeit-dbWma4SNQ" name="configurerUnites" receiveEvent="_K_M9gdLyEeit-dbWma4SNQ" sendEvent="_K_M9gNLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_SdENLyEeit-dbWma4SNQ" name="configurerUnites" messageSort="reply" receiveEvent="_K_PZwdLyEeit-dbWma4SNQ" sendEvent="_K_PZwNLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_SdEdLyEeit-dbWma4SNQ" name="CheckPiecesOr" receiveEvent="_K_OLoNLyEeit-dbWma4SNQ" sendEvent="_K_NkkNLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_SdEtLyEeit-dbWma4SNQ" name="valider" receiveEvent="_K_QA0dLyEeit-dbWma4SNQ" sendEvent="_K_QA0NLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_K_IFANLyEeit-dbWma4SNQ" name="systeme">
+        <type xmi:type="uml:Class" href="platform:/resource/projet/analyse.emx#_dy-pwNLrEeit-dbWma4SNQ?analyse/Systeme?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_K_IFAdLyEeit-dbWma4SNQ" name="joueur">
+        <type xmi:type="uml:Actor" href="platform:/resource/projet/analyse.emx#_DYKbcM2TEeigbKkFbth1Ew?analyse/User?"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_QVr6ANLyEeit-dbWma4SNQ" name="Collaboration2">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_QVshENLyEeit-dbWma4SNQ" name="Interaction1">
+        <eAnnotations xmi:id="_QVtIINLyEeit-dbWma4SNQ" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QVtIIdLyEeit-dbWma4SNQ" type="Sequence" element="_QVshENLyEeit-dbWma4SNQ" name="ObtenirBONaif" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_QVtIItLyEeit-dbWma4SNQ" element="_QVshENLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_QVtII9LyEeit-dbWma4SNQ" type="interaction_compartment">
+                <eAnnotations xmi:id="_UoOGMNLyEeit-dbWma4SNQ" source="Himetric"/>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_UoaTcNLyEeit-dbWma4SNQ" element="_UoOtQNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_UoaTcdLyEeit-dbWma4SNQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_UoaTctLyEeit-dbWma4SNQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_UoaTc9LyEeit-dbWma4SNQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_UoaTdNLyEeit-dbWma4SNQ" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_UoaTddLyEeit-dbWma4SNQ" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UoaTdtLyEeit-dbWma4SNQ" x="872" y="396" width="2301" height="11800"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_UoaTd9LyEeit-dbWma4SNQ" element="_UoPUUNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_UoaTeNLyEeit-dbWma4SNQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_UoaTedLyEeit-dbWma4SNQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_UoaTetLyEeit-dbWma4SNQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_UoaTe9LyEeit-dbWma4SNQ" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_UoaTfNLyEeit-dbWma4SNQ" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UoaTfdLyEeit-dbWma4SNQ" x="12219" y="396" width="3465" height="12065"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_UoaTftLyEeit-dbWma4SNQ" element="_UoQicdLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UoaTf9LyEeit-dbWma4SNQ" x="-1" y="1453" height="2804"/>
+                </children>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_QVtIJNLyEeit-dbWma4SNQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QVtIJdLyEeit-dbWma4SNQ" x="793" y="793"/>
+            </children>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Uoa6g9LyEeit-dbWma4SNQ" element="_UoX3MtLyEeit-dbWma4SNQ" source="_UoaTcNLyEeit-dbWma4SNQ" target="_UoaTd9LyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Uoa6hNLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uoa6hdLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uoa6htLyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uoa6h9LyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Uoa6iNLyEeit-dbWma4SNQ" points="[0, 0, -561, 0]$[561, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uoa6idLyEeit-dbWma4SNQ" id="-1644931827:1536"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uoa6itLyEeit-dbWma4SNQ" id="1890720029:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Uoa6i9LyEeit-dbWma4SNQ" element="_UoX3MNLyEeit-dbWma4SNQ" source="_UoaTd9LyEeit-dbWma4SNQ" target="_UoaTcNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Uoa6jNLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uoa6jdLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uoa6jtLyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uoa6j9LyEeit-dbWma4SNQ" y="476"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Uoa6kNLyEeit-dbWma4SNQ" points="[0, 0, 14843, 0]$[-14843, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uoa6kdLyEeit-dbWma4SNQ" id="-1644931827:2804"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uoa6ktLyEeit-dbWma4SNQ" id="1890720029:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Uoa6k9LyEeit-dbWma4SNQ" element="_UoYeQNLyEeit-dbWma4SNQ" source="_UoaTcNLyEeit-dbWma4SNQ" target="_UoaTd9LyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Uoa6lNLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uoa6ldLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uoa6ltLyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uoa6l9LyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Uoa6mNLyEeit-dbWma4SNQ" points="[0, 0, -561, 0]$[561, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uoa6mdLyEeit-dbWma4SNQ" id="-1644931827:847"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uoa6mtLyEeit-dbWma4SNQ" id="1890720029:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_UobhkNLyEeit-dbWma4SNQ" element="_UoYeQtLyEeit-dbWma4SNQ" source="_UoaTd9LyEeit-dbWma4SNQ" target="_UoaTcNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_UobhkdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_UobhktLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uobhk9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UobhlNLyEeit-dbWma4SNQ" y="476"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UobhldLyEeit-dbWma4SNQ" points="[0, 0, 561, 0]$[-561, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UobhltLyEeit-dbWma4SNQ" id="-1644931827:105"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uobhl9LyEeit-dbWma4SNQ" id="1890720029:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_UobhmNLyEeit-dbWma4SNQ" element="_UoX3MdLyEeit-dbWma4SNQ" source="_UoaTd9LyEeit-dbWma4SNQ" target="_UoaTd9LyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_UobhmdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_UobhmtLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uobhm9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UobhnNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UobhndLyEeit-dbWma4SNQ" points="[0, 0, 0, -40]$[0, 40, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UobhntLyEeit-dbWma4SNQ" id="-1644931827:159"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uobhn9LyEeit-dbWma4SNQ" id="1890720029:1058"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_UobhoNLyEeit-dbWma4SNQ" element="_UoZFUNLyEeit-dbWma4SNQ" source="_UoaTd9LyEeit-dbWma4SNQ" target="_UoaTd9LyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_UobhodLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_UobhotLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uobho9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UobhpNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UobhpdLyEeit-dbWma4SNQ" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UobhptLyEeit-dbWma4SNQ" id="-1644931827:1322"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uobhp9LyEeit-dbWma4SNQ" id="1890720029:264"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_UobhqNLyEeit-dbWma4SNQ" element="_UoYeQdLyEeit-dbWma4SNQ" source="_UoaTcNLyEeit-dbWma4SNQ" target="_UoaTd9LyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_UobhqdLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_UobhqtLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uobhq9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UobhrNLyEeit-dbWma4SNQ" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UobhrdLyEeit-dbWma4SNQ" points="[0, 0, -561, 0]$[561, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UobhrtLyEeit-dbWma4SNQ" id="-1644931827:1297"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Uobhr9LyEeit-dbWma4SNQ" id="1890720029:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_UocIoNLyEeit-dbWma4SNQ" element="_UoZFUdLyEeit-dbWma4SNQ" source="_UoaTd9LyEeit-dbWma4SNQ" target="_UoaTcNLyEeit-dbWma4SNQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_UocIodLyEeit-dbWma4SNQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_UocIotLyEeit-dbWma4SNQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_UocIo9LyEeit-dbWma4SNQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UocIpNLyEeit-dbWma4SNQ" y="476"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UocIpdLyEeit-dbWma4SNQ" points="[0, 0, 561, 0]$[-561, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UocIptLyEeit-dbWma4SNQ" id="-1644931827:1322"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UocIp9LyEeit-dbWma4SNQ" id="1890720029:0"/>
+            </edges>
+          </contents>
+        </eAnnotations>
+        <ownedConnector xmi:id="_UoZFUtLyEeit-dbWma4SNQ">
+          <end xmi:id="_UoZsYNLyEeit-dbWma4SNQ" role="_UoPUUdLyEeit-dbWma4SNQ"/>
+          <end xmi:id="_UoZsYdLyEeit-dbWma4SNQ" role="_UoP7YNLyEeit-dbWma4SNQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_UoZsYtLyEeit-dbWma4SNQ">
+          <end xmi:id="_UoZsY9LyEeit-dbWma4SNQ" role="_UoPUUdLyEeit-dbWma4SNQ"/>
+          <end xmi:id="_UoZsZNLyEeit-dbWma4SNQ" role="_UoPUUdLyEeit-dbWma4SNQ"/>
+        </ownedConnector>
+        <lifeline xmi:id="_UoOtQNLyEeit-dbWma4SNQ" name="user" represents="_UoP7YNLyEeit-dbWma4SNQ" coveredBy="_UoP7YdLyEeit-dbWma4SNQ _UoRwkNLyEeit-dbWma4SNQ _UoRwkdLyEeit-dbWma4SNQ _UoUz4NLyEeit-dbWma4SNQ _UoVa8NLyEeit-dbWma4SNQ _UoXQINLyEeit-dbWma4SNQ"/>
+        <lifeline xmi:id="_UoPUUNLyEeit-dbWma4SNQ" name="systeme" represents="_UoPUUdLyEeit-dbWma4SNQ" coveredBy="_UoQicNLyEeit-dbWma4SNQ _UoQicdLyEeit-dbWma4SNQ _UoRJgNLyEeit-dbWma4SNQ _UoSXoNLyEeit-dbWma4SNQ _UoSXodLyEeit-dbWma4SNQ _UoUM0dLyEeit-dbWma4SNQ _UoS-sNLyEeit-dbWma4SNQ _UoS-sdLyEeit-dbWma4SNQ _UoS-stLyEeit-dbWma4SNQ _UoTlwNLyEeit-dbWma4SNQ _UoUM0NLyEeit-dbWma4SNQ _UoWCANLyEeit-dbWma4SNQ _UoWCAdLyEeit-dbWma4SNQ _UoWpENLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoP7YdLyEeit-dbWma4SNQ" covered="_UoOtQNLyEeit-dbWma4SNQ" message="_UoX3MtLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_YgiN0NLtEeit-dbWma4SNQ?analyse/SendOperationEvent6?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoQicNLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoX3MtLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_YgiN0dLtEeit-dbWma4SNQ?analyse/ReceiveOperationEvent6?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_UoQicdLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" start="_UoQicNLyEeit-dbWma4SNQ" finish="_UoRJgNLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoRJgNLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoX3MNLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_YgiN0NLtEeit-dbWma4SNQ?analyse/SendOperationEvent6?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoRwkNLyEeit-dbWma4SNQ" covered="_UoOtQNLyEeit-dbWma4SNQ" message="_UoX3MNLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_YgiN0dLtEeit-dbWma4SNQ?analyse/ReceiveOperationEvent6?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoRwkdLyEeit-dbWma4SNQ" covered="_UoOtQNLyEeit-dbWma4SNQ" message="_UoYeQNLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_fBhZIdLuEeit-dbWma4SNQ?analyse/SendOperationEvent10?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoSXoNLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoYeQNLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_fBiAMNLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent10?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_UoSXodLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" start="_UoSXoNLyEeit-dbWma4SNQ" finish="_UoUM0dLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoS-sNLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoX3MdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_g3BiMNLuEeit-dbWma4SNQ?analyse/SendOperationEvent11?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoS-sdLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoX3MdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_g3BiMdLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent11?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_UoS-stLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" start="_UoS-sdLyEeit-dbWma4SNQ" finish="_UoTlwNLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoTlwNLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoZFUNLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_g3BiMNLuEeit-dbWma4SNQ?analyse/SendOperationEvent11?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoUM0NLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoZFUNLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_g3BiMdLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent11?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoUM0dLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoYeQtLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_fBhZIdLuEeit-dbWma4SNQ?analyse/SendOperationEvent10?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoUz4NLyEeit-dbWma4SNQ" covered="_UoOtQNLyEeit-dbWma4SNQ" message="_UoYeQtLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_fBiAMNLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent10?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoVa8NLyEeit-dbWma4SNQ" covered="_UoOtQNLyEeit-dbWma4SNQ" message="_UoYeQdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_rAmaQNLuEeit-dbWma4SNQ?analyse/SendOperationEvent14?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoWCANLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoYeQdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_rAmaQdLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent14?"/>
+        </fragment>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_UoWCAdLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" start="_UoWCANLyEeit-dbWma4SNQ" finish="_UoWpENLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoWpENLyEeit-dbWma4SNQ" covered="_UoPUUNLyEeit-dbWma4SNQ" message="_UoZFUdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_rAmaQNLuEeit-dbWma4SNQ?analyse/SendOperationEvent14?"/>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UoXQINLyEeit-dbWma4SNQ" covered="_UoOtQNLyEeit-dbWma4SNQ" message="_UoZFUdLyEeit-dbWma4SNQ">
+          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_rAmaQdLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent14?"/>
+        </fragment>
+        <message xmi:id="_UoX3MNLyEeit-dbWma4SNQ" name="obtenirBONaif" messageSort="reply" receiveEvent="_UoRwkNLyEeit-dbWma4SNQ" sendEvent="_UoRJgNLyEeit-dbWma4SNQ" connector="_UoZFUtLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_UoX3MdLyEeit-dbWma4SNQ" name="checkBO" receiveEvent="_UoS-sdLyEeit-dbWma4SNQ" sendEvent="_UoS-sNLyEeit-dbWma4SNQ" connector="_UoZsYtLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_UoX3MtLyEeit-dbWma4SNQ" name="obtenirBONaif" receiveEvent="_UoQicNLyEeit-dbWma4SNQ" sendEvent="_UoP7YdLyEeit-dbWma4SNQ" connector="_UoZFUtLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_UoYeQNLyEeit-dbWma4SNQ" name="lancerBONaif" receiveEvent="_UoSXoNLyEeit-dbWma4SNQ" sendEvent="_UoRwkdLyEeit-dbWma4SNQ" connector="_UoZFUtLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_UoYeQdLyEeit-dbWma4SNQ" name="validerBO" receiveEvent="_UoWCANLyEeit-dbWma4SNQ" sendEvent="_UoVa8NLyEeit-dbWma4SNQ" connector="_UoZFUtLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_UoYeQtLyEeit-dbWma4SNQ" name="lancerBONaif" messageSort="reply" receiveEvent="_UoUz4NLyEeit-dbWma4SNQ" sendEvent="_UoUM0dLyEeit-dbWma4SNQ" connector="_UoZFUtLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_UoZFUNLyEeit-dbWma4SNQ" name="checkBO" messageSort="reply" receiveEvent="_UoUM0NLyEeit-dbWma4SNQ" sendEvent="_UoTlwNLyEeit-dbWma4SNQ" connector="_UoZsYtLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_UoZFUdLyEeit-dbWma4SNQ" name="validerBO" messageSort="reply" receiveEvent="_UoXQINLyEeit-dbWma4SNQ" sendEvent="_UoWpENLyEeit-dbWma4SNQ" connector="_UoZFUtLyEeit-dbWma4SNQ"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_UoPUUdLyEeit-dbWma4SNQ" name="systeme2">
+        <type xmi:type="uml:Class" href="platform:/resource/projet/analyse.emx#_dy-pwNLrEeit-dbWma4SNQ?analyse/Systeme?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_UoP7YNLyEeit-dbWma4SNQ" name="user">
+        <type xmi:type="uml:Actor" href="platform:/resource/projet/analyse.emx#_DYKbcM2TEeigbKkFbth1Ew?analyse/User?"/>
+      </ownedAttribute>
+    </packagedElement>
     <profileApplication xmi:id="_2YDbJM2SEeigbKkFbth1Ew">
       <eAnnotations xmi:id="_2YDbJc2SEeigbKkFbth1Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
