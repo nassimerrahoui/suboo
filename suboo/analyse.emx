@@ -1080,7 +1080,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_K_WugdLyEeit-dbWma4SNQ" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WugtLyEeit-dbWma4SNQ" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_Wug9LyEeit-dbWma4SNQ" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WuhNLyEeit-dbWma4SNQ" y="-317"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WuhNLyEeit-dbWma4SNQ" x="80" y="-1573"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WuhdLyEeit-dbWma4SNQ" points="[0, 0, 0, -30]$[0, 30, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WuhtLyEeit-dbWma4SNQ" id="353161157:397"/>
@@ -1100,7 +1100,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_K_WukdLyEeit-dbWma4SNQ" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_WuktLyEeit-dbWma4SNQ" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_Wuk9LyEeit-dbWma4SNQ" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WulNLyEeit-dbWma4SNQ" y="-317"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_WulNLyEeit-dbWma4SNQ" x="18" y="-1520"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K_WuldLyEeit-dbWma4SNQ" points="[0, 0, 0, -32]$[0, 32, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K_WultLyEeit-dbWma4SNQ" id="353161157:212"/>
@@ -1148,19 +1148,11 @@
           <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_8vNmgdLtEeit-dbWma4SNQ?analyse/ReceiveOperationEvent7?"/>
         </fragment>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_KhQNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_J6MdLyEeit-dbWma4SNQ" finish="_K_MWcNLyEeit-dbWma4SNQ"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_KhQdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2AtLyEeit-dbWma4SNQ">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_TdANEdLuEeit-dbWma4SNQ?analyse/SendOperationEvent8?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LIUNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2AtLyEeit-dbWma4SNQ">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_TdA0INLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent8?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_KhQdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" event="_w8HTINbjEeiMELTx44L-OA" message="_K_R2AtLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LIUNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" event="_w8H6MNbjEeiMELTx44L-OA" message="_K_R2AtLyEeit-dbWma4SNQ"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_LIUdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_LIUNLyEeit-dbWma4SNQ" finish="_K_LvYNLyEeit-dbWma4SNQ"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LvYNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2A9LyEeit-dbWma4SNQ">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_TdANEdLuEeit-dbWma4SNQ?analyse/SendOperationEvent8?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LvYdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_R2A9LyEeit-dbWma4SNQ">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_TdA0INLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent8?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LvYNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" event="_w8HTINbjEeiMELTx44L-OA" message="_K_R2A9LyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_LvYdLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" event="_w8H6MNbjEeiMELTx44L-OA" message="_K_R2A9LyEeit-dbWma4SNQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_MWcNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_RO8dLyEeit-dbWma4SNQ">
           <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_8vNmgNLtEeit-dbWma4SNQ?analyse/SendOperationEvent7?"/>
         </fragment>
@@ -1174,19 +1166,11 @@
           <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_G43-IdLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent4?"/>
         </fragment>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_M9gtLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_M9gdLyEeit-dbWma4SNQ" finish="_K_PZwNLyEeit-dbWma4SNQ"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_NkkNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_SdEdLyEeit-dbWma4SNQ">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_VzotQNLuEeit-dbWma4SNQ?analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OLoNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_SdEdLyEeit-dbWma4SNQ">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_VzpUUNLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_NkkNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" event="_w8HTINbjEeiMELTx44L-OA" message="_K_SdEdLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OLoNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" event="_w8H6MNbjEeiMELTx44L-OA" message="_K_SdEdLyEeit-dbWma4SNQ"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_K_OLodLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" start="_K_OLoNLyEeit-dbWma4SNQ" finish="_K_OLotLyEeit-dbWma4SNQ"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OLotLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_RO8NLyEeit-dbWma4SNQ">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_VzotQNLuEeit-dbWma4SNQ?analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OysNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_RO8NLyEeit-dbWma4SNQ">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_VzpUUNLuEeit-dbWma4SNQ?analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OLotLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" event="_w8HTINbjEeiMELTx44L-OA" message="_K_RO8NLyEeit-dbWma4SNQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_OysNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" event="_w8H6MNbjEeiMELTx44L-OA" message="_K_RO8NLyEeit-dbWma4SNQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_PZwNLyEeit-dbWma4SNQ" covered="_K_Hd8dLyEeit-dbWma4SNQ" message="_K_SdENLyEeit-dbWma4SNQ">
           <event xmi:type="uml:SendOperationEvent" href="platform:/resource/projet/analyse.emx#_G43-INLuEeit-dbWma4SNQ?analyse/SendOperationEvent4?"/>
         </fragment>
@@ -1206,7 +1190,7 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K_Qn4dLyEeit-dbWma4SNQ" covered="_K_Hd8NLyEeit-dbWma4SNQ" message="_K_R2AdLyEeit-dbWma4SNQ">
           <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/projet/analyse.emx#_QDdT0dLtEeit-dbWma4SNQ?analyse/ReceiveOperationEvent5?"/>
         </fragment>
-        <message xmi:id="_K_RO8NLyEeit-dbWma4SNQ" name="CheckPiecesOr" messageSort="reply" receiveEvent="_K_OysNLyEeit-dbWma4SNQ" sendEvent="_K_OLotLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_RO8NLyEeit-dbWma4SNQ" name="CheckSaisie" messageSort="reply" receiveEvent="_K_OysNLyEeit-dbWma4SNQ" sendEvent="_K_OLotLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
         <message xmi:id="_K_RO8dLyEeit-dbWma4SNQ" name="configurerPiecesOr" messageSort="reply" receiveEvent="_K_MWcdLyEeit-dbWma4SNQ" sendEvent="_K_MWcNLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
         <message xmi:id="_K_RO8tLyEeit-dbWma4SNQ" name="configurerObjectif" messageSort="reply" receiveEvent="_K_JTIdLyEeit-dbWma4SNQ" sendEvent="_K_JTINLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
         <message xmi:id="_K_RO89LyEeit-dbWma4SNQ" name="configurerObjectif" receiveEvent="_K_IsEdLyEeit-dbWma4SNQ" sendEvent="_K_IsENLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ">
@@ -1216,11 +1200,11 @@
         </message>
         <message xmi:id="_K_R2ANLyEeit-dbWma4SNQ" name="configurerPiecesOr" receiveEvent="_K_J6MdLyEeit-dbWma4SNQ" sendEvent="_K_J6MNLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
         <message xmi:id="_K_R2AdLyEeit-dbWma4SNQ" name="valider" messageSort="reply" receiveEvent="_K_Qn4dLyEeit-dbWma4SNQ" sendEvent="_K_Qn4NLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
-        <message xmi:id="_K_R2AtLyEeit-dbWma4SNQ" name="checkPiecesOr" receiveEvent="_K_LIUNLyEeit-dbWma4SNQ" sendEvent="_K_KhQdLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
-        <message xmi:id="_K_R2A9LyEeit-dbWma4SNQ" name="checkPiecesOr" messageSort="reply" receiveEvent="_K_LvYdLyEeit-dbWma4SNQ" sendEvent="_K_LvYNLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_R2AtLyEeit-dbWma4SNQ" name="CheckSaisie" receiveEvent="_K_LIUNLyEeit-dbWma4SNQ" sendEvent="_K_KhQdLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_R2A9LyEeit-dbWma4SNQ" name="CheckSaisie" messageSort="reply" receiveEvent="_K_LvYdLyEeit-dbWma4SNQ" sendEvent="_K_LvYNLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
         <message xmi:id="_K_R2BNLyEeit-dbWma4SNQ" name="configurerUnites" receiveEvent="_K_M9gdLyEeit-dbWma4SNQ" sendEvent="_K_M9gNLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
         <message xmi:id="_K_SdENLyEeit-dbWma4SNQ" name="configurerUnites" messageSort="reply" receiveEvent="_K_PZwdLyEeit-dbWma4SNQ" sendEvent="_K_PZwNLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
-        <message xmi:id="_K_SdEdLyEeit-dbWma4SNQ" name="CheckPiecesOr" receiveEvent="_K_OLoNLyEeit-dbWma4SNQ" sendEvent="_K_NkkNLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
+        <message xmi:id="_K_SdEdLyEeit-dbWma4SNQ" name="CheckSaisie" receiveEvent="_K_OLoNLyEeit-dbWma4SNQ" sendEvent="_K_NkkNLyEeit-dbWma4SNQ" connector="_K_TrMNLyEeit-dbWma4SNQ"/>
         <message xmi:id="_K_SdEtLyEeit-dbWma4SNQ" name="valider" receiveEvent="_K_QA0dLyEeit-dbWma4SNQ" sendEvent="_K_QA0NLyEeit-dbWma4SNQ" connector="_K_USQdLyEeit-dbWma4SNQ"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_K_IFANLyEeit-dbWma4SNQ" name="systeme">
@@ -1890,6 +1874,12 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_7EqDwNOeEei7i4iH5mE6rw" name="ReceiveOperationEvent7" operation="_75kH8NOdEei7i4iH5mE6rw"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_9soyoNOeEei7i4iH5mE6rw" name="SendOperationEvent8" operation="_srYRENOeEei7i4iH5mE6rw"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_9soyodOeEei7i4iH5mE6rw" name="ReceiveOperationEvent8" operation="_srYRENOeEei7i4iH5mE6rw"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_w8HTINbjEeiMELTx44L-OA" name="SendOperationEvent9">
+      <operation href="platform:/resource/projet/analyse.emx#_w8BMgNbjEeiMELTx44L-OA?analyse/Systeme/CheckSaisie?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_w8H6MNbjEeiMELTx44L-OA" name="ReceiveOperationEvent9">
+      <operation href="platform:/resource/projet/analyse.emx#_w8BMgNbjEeiMELTx44L-OA?analyse/Systeme/CheckSaisie?"/>
+    </packagedElement>
     <profileApplication xmi:id="_2YDbJM2SEeigbKkFbth1Ew">
       <eAnnotations xmi:id="_2YDbJc2SEeigbKkFbth1Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
