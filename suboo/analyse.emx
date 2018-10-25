@@ -877,7 +877,7 @@
         </edges>
       </contents>
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_FZ69gNOWEei7i4iH5mE6rw" type="Class" name="DiagrammeClasseSysteme">
-        <children xmi:type="umlnotation:UMLShape" xmi:id="_FhSJwNOWEei7i4iH5mE6rw" element="_OpXogNL6Eei0Aa4m0D3PIA" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_FhSJwNOWEei7i4iH5mE6rw" element="_OpXogNL6Eei0Aa4m0D3PIA" fontName="Cantarell" fontHeight="8" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_FhSw0NOWEei7i4iH5mE6rw" type="ImageCompartment">
             <layoutConstraint xmi:type="notation:Size" xmi:id="_FhSw0dOWEei7i4iH5mE6rw" width="1320" height="1320"/>
           </children>
@@ -888,7 +888,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_FhSw1tOWEei7i4iH5mE6rw" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_FhSw19OWEei7i4iH5mE6rw" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_FhSw2NOWEei7i4iH5mE6rw" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhSJwdOWEei7i4iH5mE6rw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhSJwdOWEei7i4iH5mE6rw" width="4441"/>
         </children>
         <element xsi:nil="true"/>
       </contents>
@@ -1566,7 +1566,7 @@
       <ownedAttribute xmi:id="_ZSCa4dL7Eei0Aa4m0D3PIA" name="suboo1" type="_OpXogNL6Eei0Aa4m0D3PIA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_OpXogNL6Eei0Aa4m0D3PIA" name="SystemeSuboo">
-      <ownedOperation xmi:id="_UL0kcNL6Eei0Aa4m0D3PIA" name="checkSaisie"/>
+      <ownedOperation xmi:id="_UL0kcNL6Eei0Aa4m0D3PIA" name="checkSaisie" visibility="private"/>
       <ownedOperation xmi:id="_W4K18NL6Eei0Aa4m0D3PIA" name="configurerObjectifUser"/>
       <ownedOperation xmi:id="_dv_CUNL6Eei0Aa4m0D3PIA" name="configurerPiecesOrUser">
         <ownedParameter xmi:id="_CmQdkNd8Eei1srdPl43Q_A" name="PiecesOr">
@@ -1591,7 +1591,7 @@
       <ownedOperation xmi:id="_6pKNENL6Eei0Aa4m0D3PIA" name="lancerBONaif"/>
       <ownedOperation xmi:id="_-UDxgNL6Eei0Aa4m0D3PIA" name="validerBO"/>
       <ownedOperation xmi:id="_k-h3MNL7Eei0Aa4m0D3PIA" name="obtenirBOopti"/>
-      <ownedOperation xmi:id="_mr_pINL8Eei0Aa4m0D3PIA" name="isObjectifExist"/>
+      <ownedOperation xmi:id="_mr_pINL8Eei0Aa4m0D3PIA" name="isObjectifExist" visibility="private"/>
       <ownedOperation xmi:id="_KTZxANL-Eei0Aa4m0D3PIA" name="afficheListeObjectif"/>
       <ownedOperation xmi:id="_HXqWoNMUEei0Aa4m0D3PIA" name="selectObjectif">
         <ownedParameter xmi:id="_S1iSsNMVEei0Aa4m0D3PIA" name="objectif" type="_gRrWxNMPEei0Aa4m0D3PIA">
@@ -1599,7 +1599,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mm2-ANd8Eei1srdPl43Q_A" value="1"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_I9blINMVEei0Aa4m0D3PIA" name="calculerBOopti">
+      <ownedOperation xmi:id="_I9blINMVEei0Aa4m0D3PIA" name="calculerBOopti" visibility="private">
         <ownedParameter xmi:id="_O6v4INMVEei0Aa4m0D3PIA" name="objectif" type="_gRrWxNMPEei0Aa4m0D3PIA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eM_wENd8Eei1srdPl43Q_A" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eM_JANd8Eei1srdPl43Q_A" value="1"/>
@@ -1627,9 +1627,9 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lu2_ANd8Eei1srdPl43Q_A"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_75kH8NOdEei7i4iH5mE6rw" name="traitementAPI"/>
-      <ownedOperation xmi:id="_srYRENOeEei7i4iH5mE6rw" name="requeteApiSystem"/>
-      <ownedOperation xmi:id="_cHgZUNdzEei1srdPl43Q_A" name="calculerBOnaif">
+      <ownedOperation xmi:id="_75kH8NOdEei7i4iH5mE6rw" name="traitementAPI" visibility="private"/>
+      <ownedOperation xmi:id="_srYRENOeEei7i4iH5mE6rw" name="requeteApiSystem" visibility="private"/>
+      <ownedOperation xmi:id="_cHgZUNdzEei1srdPl43Q_A" name="calculerBOnaif" visibility="private">
         <ownedParameter xmi:id="_pSuA8Nd0Eei1srdPl43Q_A" name="objectif" type="_gRrWxNMPEei0Aa4m0D3PIA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cjUcgdd8Eei1srdPl43Q_A" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cjUcgNd8Eei1srdPl43Q_A" value="1"/>
