@@ -1424,6 +1424,35 @@
           </children>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F9ln0fPuEeiLTYeWccQYiA" x="15154" y="16738"/>
         </children>
+        <children xmi:type="umlnotation:UMLComponent" xmi:id="_7iWBoPl3EeiGc8Qzn5Q4jw" element="_7iRJIPl3EeiGc8Qzn5Q4jw" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" showWhiteBox="true">
+          <children xmi:type="notation:DecorationNode" xmi:id="_7iWBovl3EeiGc8Qzn5Q4jw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_7iWBo_l3EeiGc8Qzn5Q4jw" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_7iWosPl3EeiGc8Qzn5Q4jw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_7iWosfl3EeiGc8Qzn5Q4jw" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_7iWosvl3EeiGc8Qzn5Q4jw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_7iWos_l3EeiGc8Qzn5Q4jw" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_7iWotPl3EeiGc8Qzn5Q4jw" visible="false" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_7iX20Pl3EeiGc8Qzn5Q4jw" visible="false" type="OperationCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_7iX20fl3EeiGc8Qzn5Q4jw" visible="false" type="RealizationListCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_7iX20vl3EeiGc8Qzn5Q4jw" visible="false" type="RequiredInterfaceListCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_7iX20_l3EeiGc8Qzn5Q4jw" visible="false" type="ProvidedInterfaceListCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_7iYd4Pl3EeiGc8Qzn5Q4jw" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7iWBofl3EeiGc8Qzn5Q4jw" x="26934" y="16615"/>
+        </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Es4ekPl4EeiGc8Qzn5Q4jw" element="_Es2pYPl4EeiGc8Qzn5Q4jw" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Es5FoPl4EeiGc8Qzn5Q4jw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_Es5Fofl4EeiGc8Qzn5Q4jw" width="530" height="530"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_Es5Fovl4EeiGc8Qzn5Q4jw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_Es5Fo_l4EeiGc8Qzn5Q4jw" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_Es5FpPl4EeiGc8Qzn5Q4jw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_Es5Fpfl4EeiGc8Qzn5Q4jw" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_Es5Fpvl4EeiGc8Qzn5Q4jw" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_Es5Fp_l4EeiGc8Qzn5Q4jw" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_Es5ssPl4EeiGc8Qzn5Q4jw" visible="false" type="SignalCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Es4ekfl4EeiGc8Qzn5Q4jw" x="23100" y="16632"/>
+        </children>
         <element xsi:nil="true"/>
       </contents>
     </eAnnotations>
@@ -3055,7 +3084,16 @@
         <ownedParameter xmi:id="_0vJzYPlzEeiGc8Qzn5Q4jw" name="Objectif" type="_Y9nHiO5uEeit-och6OSKXg"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_CH090O51Eeit-och6OSKXg" name="IGame"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_CH090O51Eeit-och6OSKXg" name="IGame">
+      <ownedOperation xmi:id="_qLit4Pl3EeiGc8Qzn5Q4jw" name="fournirEtatJeu">
+        <ownedParameter xmi:id="_s7nBwPl3EeiGc8Qzn5Q4jw" name="nbPO"/>
+        <ownedParameter xmi:id="_v_KSUPl3EeiGc8Qzn5Q4jw" name="N"/>
+        <ownedParameter xmi:id="_xFMtUPl3EeiGc8Qzn5Q4jw" name="myUnities" type="_Y9nHWu5uEeit-och6OSKXg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0KVSQPl3EeiGc8Qzn5Q4jw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0KUrMPl3EeiGc8Qzn5Q4jw"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_EPrbIO51Eeit-och6OSKXg" name="ITechnology"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_N4nEQO51Eeit-och6OSKXg" name="IBuilOrder"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_igLvwO52Eeit-och6OSKXg" name="IGoal">
@@ -3113,6 +3151,10 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_me8Vwfl2EeiGc8Qzn5Q4jw" name="ReceiveOperationEvent20" operation="_yc-8cPlzEeiGc8Qzn5Q4jw"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_sluGwPl2EeiGc8Qzn5Q4jw" name="SendOperationEvent14" operation="_zIqMIPlyEeiGc8Qzn5Q4jw"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_slut0Pl2EeiGc8Qzn5Q4jw" name="ReceiveOperationEvent14" operation="_zIqMIPlyEeiGc8Qzn5Q4jw"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_7iRJIPl3EeiGc8Qzn5Q4jw" name="api" clientDependency="_IodjUPl4EeiGc8Qzn5Q4jw">
+      <interfaceRealization xmi:id="_IodjUPl4EeiGc8Qzn5Q4jw" supplier="_Es2pYPl4EeiGc8Qzn5Q4jw" client="_7iRJIPl3EeiGc8Qzn5Q4jw" contract="_Es2pYPl4EeiGc8Qzn5Q4jw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Es2pYPl4EeiGc8Qzn5Q4jw" name="IApi"/>
     <profileApplication xmi:id="_Y9nIqO5uEeit-och6OSKXg">
       <eAnnotations xmi:id="_Y9nIqe5uEeit-och6OSKXg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
