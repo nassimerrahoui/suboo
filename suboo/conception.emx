@@ -1464,7 +1464,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_KIswBP33EeijyZQj6QEFKA" type="AttributeCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_KItXEP33EeijyZQj6QEFKA" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_KItXEf33EeijyZQj6QEFKA" visible="false" type="SignalCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KIsI8f33EeijyZQj6QEFKA" x="9736" y="17330"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KIsI8f33EeijyZQj6QEFKA" x="10428" y="18348"/>
         </children>
         <element xsi:nil="true"/>
       </contents>
