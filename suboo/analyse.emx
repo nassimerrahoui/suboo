@@ -1804,7 +1804,7 @@
         <ownedLiteral xmi:id="_gRrWeNMPEei0Aa4m0D3PIA" name="en_construction" classifier="_gRrWc9MPEei0Aa4m0D3PIA"/>
         <ownedLiteral xmi:id="_gRrWedMPEei0Aa4m0D3PIA" name="mobilise" classifier="_gRrWc9MPEei0Aa4m0D3PIA"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_gRrWetMPEei0Aa4m0D3PIA" name="Partie">
+      <packagedElement xmi:type="uml:Class" xmi:id="_gRrWetMPEei0Aa4m0D3PIA" name="Game">
         <ownedAttribute xmi:id="_gRrWe9MPEei0Aa4m0D3PIA" name="nb_po" visibility="private"/>
         <ownedAttribute xmi:id="_gRrWfNMPEei0Aa4m0D3PIA" name="nb_n" visibility="private"/>
         <ownedAttribute xmi:id="_gRrWfdMPEei0Aa4m0D3PIA" name="instanceUnites" visibility="private" type="_gRrWgdMPEei0Aa4m0D3PIA" association="_gRrWjdMPEei0Aa4m0D3PIA">
@@ -1940,7 +1940,7 @@
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_gRrWxNMPEei0Aa4m0D3PIA" name="Objectif">
+      <packagedElement xmi:type="uml:Class" xmi:id="_gRrWxNMPEei0Aa4m0D3PIA" name="Goal">
         <ownedAttribute xmi:id="_gRrWxdMPEei0Aa4m0D3PIA" name="nb_po" visibility="private"/>
         <ownedAttribute xmi:id="_gRrWxtMPEei0Aa4m0D3PIA" name="nb_n" visibility="private"/>
         <ownedAttribute xmi:id="_gRrWx9MPEei0Aa4m0D3PIA" name="buildOrder" visibility="private" type="_gRrWqdMPEei0Aa4m0D3PIA" association="_gRrWwNMPEei0Aa4m0D3PIA">
@@ -1964,7 +1964,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gRrW1dMPEei0Aa4m0D3PIA"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_gRrW1tMPEei0Aa4m0D3PIA" name="ObjectifUnite">
+      <packagedElement xmi:type="uml:Class" xmi:id="_gRrW1tMPEei0Aa4m0D3PIA" name="GoalUnite">
         <ownedAttribute xmi:id="_gRrW19MPEei0Aa4m0D3PIA" name="objectif" visibility="private" type="_gRrWxNMPEei0Aa4m0D3PIA" association="_gRrW39MPEei0Aa4m0D3PIA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gRrW2NMPEei0Aa4m0D3PIA" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gRrW2dMPEei0Aa4m0D3PIA" value="1"/>
