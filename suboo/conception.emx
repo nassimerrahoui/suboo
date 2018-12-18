@@ -482,7 +482,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_jWq1ggLzEemHsvaW3S4tbw" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_jWq1hALzEemHsvaW3S4tbw" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_jWq1hQLzEemHsvaW3S4tbw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWq1gwLzEemHsvaW3S4tbw" x="945" y="-675"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWq1gwLzEemHsvaW3S4tbw" x="-6" y="-1579"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jWq1gQLzEemHsvaW3S4tbw" points="[0, 0, 0, -19]$[0, 19, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jWsqsALzEemHsvaW3S4tbw" id="294:264"/>
@@ -492,7 +492,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_jW438ALzEemHsvaW3S4tbw" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_jW438gLzEemHsvaW3S4tbw" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_jW438wLzEemHsvaW3S4tbw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jW438QLzEemHsvaW3S4tbw" y="-317"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jW438QLzEemHsvaW3S4tbw" x="531" y="-1183"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jW4Q4QLzEemHsvaW3S4tbw" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jW439ALzEemHsvaW3S4tbw" id="325:1322"/>
@@ -1168,7 +1168,6 @@
           <ownedParameter xmi:id="_JBcSYALsEemHsvaW3S4tbw" name="Unities"/>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_F6sz8P8HEeieaMbt9UEsGw" name="IGoalUnite"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_Y9nHiO5uEeit-och6OSKXg" name="Goal">
         <ownedAttribute xmi:id="_Y9nHie5uEeit-och6OSKXg" name="nb_po" visibility="private"/>
         <ownedAttribute xmi:id="_Y9nHiu5uEeit-och6OSKXg" name="nb_n" visibility="private"/>
@@ -3879,19 +3878,6 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_KItXEP33EeijyZQj6QEFKA" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_KItXEf33EeijyZQj6QEFKA" visible="false" type="SignalCompartment"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KIsI8f33EeijyZQj6QEFKA" x="10032" y="18480"/>
-          </children>
-          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_F6xFYP8HEeieaMbt9UEsGw" element="_F6sz8P8HEeieaMbt9UEsGw" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
-            <children xmi:type="notation:DecorationNode" xmi:id="_F6xscP8HEeieaMbt9UEsGw" type="ImageCompartment">
-              <layoutConstraint xmi:type="notation:Size" xmi:id="_F6xscf8HEeieaMbt9UEsGw" width="530" height="530"/>
-            </children>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_F6xscv8HEeieaMbt9UEsGw" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_F6xsc_8HEeieaMbt9UEsGw" type="Kind"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_F6xsdP8HEeieaMbt9UEsGw" type="Name"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_F6xsdf8HEeieaMbt9UEsGw" type="Parent"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_F6xsdv8HEeieaMbt9UEsGw" type="AttributeCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_F6xsd_8HEeieaMbt9UEsGw" type="OperationCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_F6xseP8HEeieaMbt9UEsGw" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F6xFYf8HEeieaMbt9UEsGw" x="2407" y="13758" width="3224" height="3249"/>
           </children>
           <element xsi:nil="true"/>
         </contents>
